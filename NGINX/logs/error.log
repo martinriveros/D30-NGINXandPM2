@@ -1,0 +1,33 @@
+2022/01/14 19:14:57 [error] 5220#9816: *1 CreateFile() "C:\Users\user\Desktop\nginx-1.21.5/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/19 18:09:40 [error] 12160#9184: *1 directory index of "C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/../node/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/19 18:09:40 [error] 12160#9184: *1 CreateFile() "C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/../node/public/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/19 18:10:15 [error] 12160#9184: *1 directory index of "C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/../node/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/19 18:10:16 [error] 12160#9184: *1 directory index of "C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/../node/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/20 16:58:19 [emerg] 13856#10736: no "events" section in configuration
+2022/01/20 16:58:23 [emerg] 13276#7516: no "events" section in configuration
+2022/01/20 17:01:09 [emerg] 4792#13208: no "events" section in configuration
+2022/01/20 17:13:28 [emerg] 4808#4856: no "events" section in configuration
+2022/01/20 17:15:32 [emerg] 1820#12628: no "events" section in configuration
+2022/01/20 17:18:12 [notice] 816#13528: signal process started
+2022/01/20 17:18:12 [error] 816#13528: OpenEvent("Global\ngx_reload_9644") failed (5: Acceso denegado)
+2022/01/20 17:24:57 [notice] 9476#13144: signal process started
+2022/01/20 17:24:57 [error] 9476#13144: OpenEvent("Global\ngx_stop_9644") failed (5: Acceso denegado)
+2022/01/20 17:30:05 [notice] 8336#14212: signal process started
+2022/01/20 17:30:05 [error] 8336#14212: OpenEvent("Global\ngx_stop_9644") failed (5: Acceso denegado)
+2022/01/20 17:30:19 [notice] 1268#12672: signal process started
+2022/01/20 17:30:19 [error] 1268#12672: OpenEvent("Global\ngx_quit_9644") failed (5: Acceso denegado)
+2022/01/20 17:37:31 [emerg] 6812#3988: host not found in upstream "info" in C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/conf/conf.d/first.conf:20
+2022/01/25 06:56:25 [emerg] 3176#1528: host not found in upstream "info" in C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/conf/conf.d/first.conf:20
+2022/01/25 06:57:26 [emerg] 12616#3528: host not found in upstream "info" in C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\nginx/conf/conf.d/first.conf:20
+2022/01/25 06:58:18 [emerg] 3332#12564: host not found in upstream "info" in C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\nginx/conf/conf.d/first.conf:20
+2022/01/25 06:58:41 [emerg] 14260#3836: host not found in upstream "info" in C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\nginx/conf/conf.d/first.conf:20
+2022/01/25 15:50:36 [emerg] 12520#5224: invalid number of arguments in "pid" directive in C:\Users\user\Desktop\NODE\D30-PROXY-NGINX\NGINX/conf/nginx.conf:11
+2022/01/25 15:53:55 [notice] 1780#15316: signal process started
+2022/01/25 16:26:30 [notice] 15176#14696: signal process started
+2022/01/25 16:40:28 [notice] 8424#5508: signal process started
+2022/01/25 17:30:13 [error] 8940#9272: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms?cant=500000 HTTP/1.1", upstream: "http://127.0.0.1:8081/api/randoms?cant=500000", host: "localhost"
+2022/01/25 17:30:48 [notice] 15456#15412: signal process started
+2022/01/25 17:30:48 [error] 15456#15412: OpenEvent("Global\ngx_reload_13812") failed (5: Acceso denegado)
+2022/01/25 17:31:26 [notice] 9864#6824: signal process started
+2022/01/25 17:31:26 [error] 9864#6824: OpenEvent("Global\ngx_reload_2124") failed (5: Acceso denegado)
+2022/01/25 17:32:56 [error] 440#5540: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /info HTTP/1.1", upstream: "http://127.0.0.1:8080/info", host: "localhost"
